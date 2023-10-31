@@ -317,6 +317,38 @@ nav p {
     63% 100%,
     0% 100%
   );
+  animation: corner-1-animation 0.5s linear;
+  -webkit-animation: corner-1-animation 0.5s linear;
+}
+@keyframes corner-1-animation {
+  0% {
+    transform: translateY(15vh);
+    -webkit-transform: translateY(15vh);
+    -moz-transform: translateY(15vh);
+    -ms-transform: translateY(15vh);
+    -o-transform: translateY(15vh);
+  }
+  60% {
+    transform: translateY(-1vh);
+    -webkit-transform: translateY(-1vh);
+    -moz-transform: translateY(-1vh);
+    -ms-transform: translateY(-1vh);
+    -o-transform: translateY(-1vh);
+  }
+  70% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
 }
 .left-corner-2 {
   position: absolute;
@@ -339,6 +371,38 @@ nav p {
     68% 100%,
     0% 100%
   );
+  animation: corner-2-animation 0.5s linear;
+  -webkit-animation: corner-2-animation 0.5s linear;
+}
+@keyframes corner-2-animation {
+  0% {
+    transform: translateY(15vh);
+    -webkit-transform: translateY(15vh);
+    -moz-transform: translateY(15vh);
+    -ms-transform: translateY(15vh);
+    -o-transform: translateY(15vh);
+  }
+  40% {
+    transform: translateY(15vh);
+    -webkit-transform: translateY(15vh);
+    -moz-transform: translateY(15vh);
+    -ms-transform: translateY(15vh);
+    -o-transform: translateY(15vh);
+  }
+  90% {
+    transform: translateY(-1vh);
+    -webkit-transform: translateY(-1vh);
+    -moz-transform: translateY(-1vh);
+    -ms-transform: translateY(-1vh);
+    -o-transform: translateY(-1vh);
+  }
+  100% {
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+  }
 }
 .info-container h1 span {
   position: relative;
