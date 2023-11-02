@@ -80,6 +80,7 @@ nav p {
 .info-container h1 {
   font-size: 40px;
   margin-bottom: 20px;
+  padding-bottom: 2px;
 }
 .section-1 .image-container {
   display: flex;
