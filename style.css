@@ -87,13 +87,13 @@ nav p {
 }
 .section-1 .info-container {
   position: relative;
-  height: 90%;
-  width: 45%;
+  height: 600px;
+  width: 600px;
   display: flex;
   align-items: start;
   justify-content: center;
   flex-direction: column;
-  padding-left: 80px;
+  padding-left: 60px;
   color: aliceblue;
 }
 .info-container h1 {
@@ -105,8 +105,8 @@ nav p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90%;
-  width: 45%;
+  height: 600px;
+  width: 600px;
   z-index: 90;
 }
 .image-container .outer-circle,
@@ -526,5 +526,44 @@ nav p {
     -moz-transform: translateY(-10vh) scale(0.2);
     -ms-transform: translateY(-10vh) scale(0.2);
     -o-transform: translateY(-10vh) scale(0.2);
+  }
+}
+
+@media (max-width: 700px) {
+  header,
+  nav {
+    height: 10vh;
+  }
+  nav .menu,
+  nav .register-button {
+    display: none;
+  }
+  .section-1 {
+    flex-direction: column-reverse;
+  }
+  .inner-circle img {
+    height: 90px;
+    width: 90px;
+  }
+  .inner-circle {
+    height: 135px;
+    width: 135px;
+  }
+  .middle-circle {
+    height: 200px;
+    width: 200px;
+  }
+  .outer-circle {
+    height: 260px;
+    width: 260px;
+  }
+  .info-container {
+    width: 400px;
+    z-index: 19;
+  }
+  .info-container h1 {
+    font-size: 17px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
   }
 }
